@@ -8,3 +8,6 @@ map("n", "gl", vim.diagnostic.open_float, { desc = "Hover Diagnostics" })
 
 -- find word
 map("n", "<leader>fw", "<cmd>Telescope live_grep<cr>", { desc = "Find Word" })
+
+-- toggle-term
+-- map({"n", "i"}, )
