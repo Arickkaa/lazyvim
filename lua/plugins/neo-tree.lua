@@ -70,8 +70,6 @@ return {
           end,
           desc = "Open with System Application",
         },
-        ["h"] = "open",
-        ["l"] = "open",
       },
     },
     default_component_configs = {

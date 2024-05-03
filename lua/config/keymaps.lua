@@ -6,9 +6,6 @@ local map = vim.keymap.set
 -- hover diagnostics
 map("n", "gl", vim.diagnostic.open_float, { desc = "Hover Diagnostics" })
 
--- find word
-map("n", "<leader>fw", "<cmd>Telescope live_grep<cr>", { desc = "Find Word" })
-
 -- toggle-term
 map({ "n", "i" }, "<A-->", "<cmd>exe winheight(0)/2.'split' | term<CR>")
 map({ "n", "i" }, "<A-\\>", "<cmd>exe winwidth(0)/2.'vsplit' | term<CR>")
