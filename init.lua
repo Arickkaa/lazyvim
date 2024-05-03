@@ -2,7 +2,7 @@
 require("config.lazy")
 
 --透明度
-vim.g.neovide_transparency = 0.95
+vim.g.neovide_transparency = 0.8
 
 -- cursor特效
 vim.g.neovide_cursor_vfx_mode = "railgun"
